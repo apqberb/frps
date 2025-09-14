@@ -1,21 +1,21 @@
 bindAddr = "0.0.0.0"
-bindPort = 7000
-#kcpBindPort = 7000
-quicBindPort = 7000
+bindPort = 70
+#kcpBindPort = 70
+quicBindPort = 70
 
-vhostHTTPPort = 80
-vhostHTTPSPort = 443
+vhostHTTPPort = 71
+vhostHTTPSPort = 72
 
 transport.maxPoolCount = 2000
 transport.tcpMux = true
-transport.tcpMuxKeepaliveInterval = 60
-transport.tcpKeepalive = 7200
+transport.tcpMuxKeepaliveInterval = 1
+transport.tcpKeepalive = 10
 transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
-webServer.port = 7500
+webServer.port = 73
 webServer.user = "admin"
-webServer.password = "admin"
+webServer.password = "3375Apqberb"
 webServer.pprofEnable = false
 
 log.to = "./frps.log"
@@ -24,7 +24,7 @@ log.maxDays = 3
 log.disablePrintColor = false
 
 auth.method = "token"
-auth.token = "12345678"
+auth.token = "apqberb"
 
 allowPorts = [
   { start = 10001, end = 50000 }
